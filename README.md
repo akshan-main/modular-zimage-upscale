@@ -5,6 +5,7 @@ Tiled image upscaling for Z-Image using [MultiDiffusion](https://arxiv.org/abs/2
 Produces seamless upscaled output without tile boundary artifacts. Supports optional ControlNet conditioning, progressive upscaling, and auto-strength.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/akshan-main/4965498a6cea46b42dc691318154d0d6/modular-zimage-upscale_demo.ipynb)
+[![HuggingFace Hub](https://img.shields.io/badge/HuggingFace-Hub-yellow)](https://huggingface.co/akshan-main/modular-zimage-upscale)
 
 ## Features
 
