@@ -120,20 +120,6 @@ MultiDiffusionUpscaleBlocks (SequentialPipelineBlocks)
                   - VAE decode full latents
 ```
 
-## Repo structure
-
-```
-├── hub_block/          # Consolidated single-file for HuggingFace Hub
-│   ├── block.py
-│   └── modular_config.json
-├── tests/
-├── utils_tiling.py     # Tile planning + cosine weights
-├── input.py            # Lanczos upscale step
-├── denoise.py          # MultiDiffusion tiled denoise step
-├── modular_blocks.py   # Assembled pipeline blocks
-└── __init__.py
-```
-
 ## Limitations
 
 - Z-Image Turbo (6B) needs ~16GB VRAM. Use `enable_model_cpu_offload()` on T4
