@@ -101,7 +101,7 @@ result = pipe(
 
 ## Limitations
 
-- Z-Image Turbo (6B) needs ~16GB VRAM. Use `enable_model_cpu_offload()` on T4
+- Z-Image Turbo (6B) needs ~22GB VRAM if using without controlnet. If controlnet enabled, use A100 because of higher VRAM
 - ControlNet improves faithfulness but is optional
 - Tiles smaller than 32 latent pixels may produce artifacts
 - Very small inputs produce distortion. Use progressive mode
